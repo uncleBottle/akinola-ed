@@ -17,11 +17,9 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <!-- TODO: Install Git -->
-
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-label="Moshify" class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
         <svg class="icon icon--white nav__toggler">
           <use href="images/sprite.svg#menu"></use>
         </svg>
@@ -69,6 +67,7 @@
       </header>
       <div class="input-group">
         <input
+          aria-label="Domain"
           type="text"
           placeholder="Enter domain name here..."
           class="input"
